@@ -5,10 +5,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Hire a great immigration lawyer at a resonable cost' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
-    link: [
+    link: [  
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
