@@ -56,6 +56,19 @@
             header3: 'Address',
             header4: 'Messenger Pigeon'
         }
+      },
+      head() {
+        return {
+          title: "Contact",
+          meta: [
+            {
+              hid: 'description',
+              name: 'decription',
+              content: 'How to get in contact with someone from the firm'
+            }
+          ]
+        }
       }
-      }
+     }
+      
     </script>
