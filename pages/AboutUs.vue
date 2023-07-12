@@ -66,7 +66,7 @@
 <script>
 
 
-  export default{
+  export default {
     name: 'app',
     data(){
       return{
@@ -91,6 +91,20 @@
         }
 
     }
+    
+  },
+  head() {
+    return {
+      title: "About Us",
+      meta: [
+        {
+          hid: 'description',
+          name: 'decription',
+          content: 'History about the firm and more information'
+        }
+      ]
+    }
   }
-  }
+}
+ 
 </script>
