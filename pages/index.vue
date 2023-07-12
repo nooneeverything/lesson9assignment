@@ -31,5 +31,22 @@
           
   
   </template>
+<script>
+export default {
+  head() {
+    return {
+      title: "Homepage",
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Homepage of website with basic information about law firm'
+        }
+      ]
+    }
+  }
+}
+
+</script>
 
 
