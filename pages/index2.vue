@@ -42,8 +42,19 @@ export default {
             this.errored = true
         })
         .finally(() => this.loading = false)
+    },
+    head() {
+      return {
+        title: "Countries",
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'List of countries'
+          }
+        ]
+      }
     }
- 
 }
 </script>
 
